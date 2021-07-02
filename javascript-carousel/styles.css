@@ -1,0 +1,57 @@
+.main {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.carousel {
+  position: relative;
+  width: 900px;
+  height: 550px;
+  border: 5px solid black;
+  font-size: 24px;
+}
+
+ul li {
+  list-style: none;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+}
+
+i.fas {
+  color: black;
+  font-size: 25px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.fa-chevron-left {
+  margin-left: 30px;
+  position: absolute;
+  top: 50%;
+}
+
+.fa-chevron-right {
+  position: absolute;
+  margin-right: 30px;
+  top: 50%;
+  right: 0;
+}
+
+.fa-circle {
+  position: relative;
+  font-size: 25px;
+}
+
+.circles {
+  display: flex;
+  justify-content: center;
+}
+
+.circles li {
+  padding: 5px;
+}
