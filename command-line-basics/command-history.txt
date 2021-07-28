@@ -1,0 +1,387 @@
+    1  git config --global user.name "ChiaYu Lin"
+    2  git config --global user.email "lin.1008@osu.edu"
+    3  git config --global --list
+    4  ls
+    5  cd ~/repos/m2-621-code-solutions
+    6  cd ~/repos/m2-0621-code-solutions/
+    7  pwd
+    8  git status
+    9  git init
+   10  git status
+   11  git checkout master
+   12  git status
+   13  pwd
+   14  git status
+   15  git switch master
+   16  git commit -m "master."
+   17  ls
+   18  git clone https://github.com/cyulin17/m2-0621-code-solutions.git
+   19  git status
+   20  pwd
+   21  git status
+   22  git switch master
+   23  git pull origin master
+   24  git branch javascript-custom-methods
+   25  git branch --list
+   26  git switch javascript-custom-methods
+   27  git status
+   28  pwd
+   29  git status
+   30  git add javascript-custom-methods/
+   31  git status
+   32  git commit -m "Completed javascript-custom-methods."
+   33  git push origin javascript-custom-methods
+   34  git switch master
+   35  git pull origin master
+   36  git status
+   37  git switch master
+   38  git pull origin master
+   39  git branch javascript-this
+   40  git branch --list
+   41  git switch javascript-this
+   42  git status
+   43  git switch master
+   44  git remote set-url origin git@github.com:cyulin17/m2-0621-code-solutions.git
+   45  git switch javascript-this
+   46  git status
+   47  git add javascript-this/
+   48  git status
+   49  git commit -m "Completed javascript-this."
+   50  git push origin javascript-this
+   51  git switch master
+   52  git pull origin master
+   53  git status
+   54  git switch master
+   55  git pull origin master
+   56  git branch javascript-prototypes
+   57  git branch --list
+   58  git switch javascript-prototypes
+   59  git status
+   60  pwd
+   61  git status
+   62  git add javascript-prototypes/
+   63  git status
+   64  git commit -m "Completed javascript-prototypes."
+   65  git push origin javascript-prototypes/
+   66  git push origin javascript-prototypes
+   67  pwd
+   68  git status
+   69  git switch master
+   70  git pull origin master
+   71  git branch javascript-constructors
+   72  git branch --list
+   73  git switch javascript-constructors
+   74  git statys
+   75  git status
+   76  pwd
+   77  git status
+   78  git add javascript-constructors/
+   79  git status
+   80  git commit -m "Completed javascript-constructors."
+   81  git push origin javascript-constructors
+   82  git checkout master
+   83  git pull origin master
+   84  pwd
+   85  git status
+   86  git switch master
+   87  git pull origin master
+   88  git branch javascript-bank
+   89  git branch --list
+   90  git switch javascript-bank
+   91  git status
+   92  git checkout master
+   93  git pull origin master
+   94  git switch javascript-bank
+   95  git status
+   96  git checkout master
+   97  git pull origin master
+   98  git switch javascript-bank
+   99  npm install --save-dev stylelint stylelint-scss stylelint-config-standard stylelint-csstree-validator
+  100  pwd
+  101  cd ~/repos/m2-0621-code-solutions/
+  102  git status
+  103  git add javascript-bank/
+  104  git status
+  105  git commit -m "Completed javascript-bank."
+  106  git push origin javascript-bank
+  107  git switch master
+  108  git pull origin master
+  109  cd ~/repos/m2-0621-code-solutions/
+  110  git status
+  111  git switch master
+  112  git pull origin master
+  113  git branch javascript-timers
+  114  git branch --list
+  115  git switch javascript-timers
+  116  git status
+  117  git add javascript-timers
+  118  git status
+  119  git commit -m "Completed javascript-timers.
+  120  git commit -m "Completed javascript-timers."
+  121  git status
+  122  git status
+  123  git commit -m "Completed javascript-timers."
+  124  git push origin javascript-timers
+  125  git switch master
+  126  git pull origin master
+  127  git status
+  128  git switch master
+  129  git pull origin master
+  130  git branch javascript-carousel
+  131  git branch --list
+  132  git switch javascript-carousel
+  133  git status
+  134  git switch master
+  135  git pull origin master
+  136  git switch javascript-timers
+  137  git add javascript-timers
+  138  git commit -m "clearInterval added."
+  139  git push origin javascript-timers
+  140  git switch master
+  141  git pull origin master
+  142  cd ~/repos/m2-0621-code-solutions/
+  143  git switch javascript-carousel
+  144  git status
+  145  git add javascript-carousel/
+  146  git status
+  147  git commit -m "Completed javascript-carousel."
+  148  git push origin javascript-carousel
+  149  git switch master
+  150  git pull origin master
+  151  cd ~/repos
+  152  pwd
+  153  git clone https://github.com/cyulin17/driving-game
+  154  cd driving-game
+  155  npm ci
+  156  git pull origin master
+  157  git branch issue-1-user-can-see-their-car
+  158  git --list
+  159  git branch --list
+  160  git switch issue-1-user-can-see-their-car
+  161  git status
+  162  pwd
+  163  git status
+  164  git add issue-1-user-can-see-their-car
+  165  git status
+  166  git commit -m "Completed issue-1-user-can-see-their-car."
+  167  git push origin issue-1-user-can-see-their-car
+  168  git push origin driving game
+  169  git status
+  170  git add issue-1-user-can-see-their-car
+  171  git add driving-game
+  172  git add driving game
+  173  git status
+  174  git add .
+  175  git status
+  176  git commit -m "Completed issue-1-user-can-see-their-car.
+  177  "
+  178  git status
+  179  git push origin issue-1-user-can-see-their-car
+  180  git switch master
+  181  git pull origin master
+  182  git status
+  183  git pull origin master
+  184  git switch master
+  185  git branch issue-2-user-can-start-their-car
+  186  git branch --list
+  187  git switch issue-2-user-can-start-their-car
+  188  git switch master
+  189  git pull origin master
+  190  cd ~/repos/driving-game/
+  191  git switch master
+  192  git pull origin master
+  193  git branch -d issue-2-user-can-start-their-car
+  194  git pull origin master
+  195  git branch issue-2-user-can-turn-their-car
+  196  git branch --list
+  197  git switch branch issue-2-user-can-turn-their-car
+  198  git switch issue-2-user-can-turn-their-car
+  199  git status
+  200  git add .
+  201  git status
+  202  git commit -m "Completed issue-2-user-can-turn-their-car."
+  203  git push origin issue-2-user-can-turn-their-car
+  204  git switch master
+  205  git pull origin master
+  206  git branch issue-3-user-can-start-their-car
+  207  git branch --list
+  208  git switch branch issue-3-user-can-start-their-car
+  209  git switch issue-3-user-can-start-their-car
+  210  git switch master
+  211  git pull origin master
+  212  git switch issue-3-user-can-start-their-car
+  213  cd ~/repos/driving-game/
+  214  git status
+  215  git add .
+  216  git status
+  217  git commit -m "Completed issue-3-user-can-start-their-car."
+  218  git add .
+  219  git status
+  220  git commit -m "Completed issue-3-user-can-start-their-car.
+  221  git commit -m "Completed issue-3-user-can-start-their-car."
+  222  git commit -m "Completed issue-3-user-can-start-their-car.
+  223  git commit -m "Completed issue-3-user-can-start-their-car."
+  224  git push origin issue-3-user-can-start-their-car
+  225  git switch master
+  226  git pull origin master
+  227  git switch issue-3-user-can-start-their-car
+  228  git switch master
+  229  git branch issue-4-user-can-stop-their-car
+  230  git --list
+  231  git add .
+  232  git status
+  233  git commit - "updated user can start and stop their car."
+  234  git commit -m "updated user can start and stop their car."
+  235  git push origin issue-3-user-can-start-their-car
+  236  git switch issue-3-user-can-start-their-car
+  237  git branch issue-4-user-can-stop-their-car
+  238  git switch issue-4-user-can-stop-their-car
+  239  git status
+  240  git add .
+  241  git status
+  242  git commit -m "Completed issue-4-user-can-stop-their-car.
+  243  git commit -m "Completed issue-4-user-can-stop-their-car."
+  244  git commit -m "Completed issue-4-user-can-stop-their-car.
+  245  git commit -m "Completed issue-4-user-can-stop-their-car."
+  246  git add .
+  247  git status
+  248  git commit -m ""Completed issue-4-user-can-stop-their-car."
+  249  git commit -m "Completed issue-4-user-can-stop-their-car."
+  250  git status
+  251  git commit -m "Completed issue-4-user-can-stop-their-car."
+  252  git commit -m "Completed issue-4-user-can-stop-their-car."
+  253  git commit --amend -m "Completed issue-4-user-can-stop-their-car."
+  254  git status
+  255  git commit -m "Completed issue-4-user-can-stop-their-car."
+  256  git push origin issue-4-user-can-stop-their-car
+  257  git switch master
+  258  git branch issue-5-user-can-steer-their-car
+  259  git branch --list
+  260  git status
+  261  git switch issue-5-user-can-steer-their-car
+  262  git switch issue-4-user-can-stop-their-car
+  263  cd ~/repos/driving-game/
+  264  git switch master
+  265  git pull origin master
+  266  git add .
+  267  git status
+  268  git commit -m "Completed issue-4-user-can-stop-their-car.
+  269  "
+  270  git switch master
+  271  git pull origin master
+  272  git switch issue-5-user-can-steer-their-car
+  273  git switch master
+  274  git pull origin master
+  275  git switch master
+  276  git switch issue-5-user-can-steer-their-car
+  277  git status
+  278  git add .
+  279  git status
+  280  git commit -m "Completed issue-5-user-can-steer-their-car."
+  281  git add .
+  282  git status
+  283  git commit -m "Completed issue-5-user-can-steer-their-car."
+  284  git push origin issue-5-user-can-steer-their-car
+  285  cd ~/repos/m2-06
+  286  cd ~/repos/m2-0621-code-solutions/
+  287  pwd
+  288  git status
+  289  git switch master
+  290  git pull origin master
+  291  git branch http-messages
+  292  git branch --list
+  293  git switch http-messages
+  294  cd ~/repos/m2-0621-code-solutions/http-messages/
+  295  http https://example.com
+  296  --verbose https://example.com
+  297  http --verbose https://example.com
+  298  http --body GET https://jsonplaceholder.typicode.com/users > users.json
+  299  http --body GET https://example.com > index.html
+  300  cd ~/repos/m2-0621-code-solutions/
+  301  git status
+  302  git add http-messages/
+  303  git status
+  304  git commit -m "Completed http-messages."
+  305  git push origin http-messages
+  306  git switch master
+  307  git pull origin master
+  308  git branch javascript-ajax
+  309  git branch --list
+  310  git switch javascript-ajax
+  311  cd ~/repos/driving-game/
+  312  git status
+  313  git add .
+  314  git status
+  315  git switch master
+  316  git status
+  317  git switch issue-5-user-can-steer-their-car
+  318  git status
+  319  http --body GET https://maps.googleapis.com/maps/api/place/textsearch/json%3Fquery=boba+in+91748%26key=AIzaSyDuyBSr5VhCME_7yzhHf4UW8ec3Gh_kCiM > boba91748.json
+  320  http --body GET https://maps.googleapis.com/maps/api/place/textsearch/json?query==[A'boba+in+91748' &key==AIzaSyDuyBSr5VhCME_7yzhHf4UW8ec3Gh_kCiM > boba91748.json
+  321  http https://maps.googleapis.com/maps/api/place/textsearch/json? query='boba+in+91748' key=AIzaSyDuyBSr5VhCME_7yzhHf4UW8ec3Gh_kCiM > boba91748.json
+  322  http https://maps.googleapis.com/maps/api/place/textsearch/json? query=='boba+in+91748' key==AIzaSyDuyBSr5VhCME_7yzhHf4UW8ec3Gh_kCiM > boba91748.json
+  323  cd ~/repos/m2-0621-code-solutions/
+  324  cd command-line-basics
+  325  git switch master
+  326  cd command-line-basics
+  327  cd command-line-basics/
+  328  pwd
+  329  man man
+  330  man cat
+  331  cat laziness.txt
+  332  cat impatience.txt
+  333  cat hubris.txt
+  334  cat laziness.txt impatience.txt hubris.txt
+  335  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  336  cat three-virtues.txt
+  337  man ls
+  338  ls
+  339  ls -a
+  340  ls -F
+  341  ls lfz-staff/
+  342  ls lfz-staff/ -a
+  343  ls lfz-staff/ -F
+  344  ls -aF lfz-staff/ > lfz-staff/contents.txt
+  345  cat lfz-staff/contents.txt
+  346  man pwd
+  347  pwd
+  348  pwd > i-was-here.txt
+  349  ls
+  350  cat i-was-here.txt
+  351  man echo
+  352  echo 'Hello, World'
+  353  echo 'Hello, World' > hello.txt
+  354  ls
+  355  cat hello.txt
+  356  man touch
+  357  touch tag-youre-it.txt
+  358  man touch
+  359  touch snoot/ boop.txt
+  360  ls snoot/
+  361  touch snoot/ > boop.txt
+  362  man touch
+  363  ls snoot/ touch boop.txt
+  364  touch snoot/boop.txt
+  365  ls snoot/
+  366  man mkdir
+  367  mkdir parent
+  368  ls
+  369  mkdir -p parent/child/grandchild
+  370  touch parent/child/grandchild/.gitkeep
+  371  ls -a parent/child/grandchild/
+  372  man mv
+  373  mv pokiemans pokemon
+  374  ls
+  375  man rm
+  376  rm lol.txt
+  377  ls
+  378  rm -r kill-me/
+  379  ls
+  380  man cp
+  381  cp and-then.txt no-and-then.txt
+  382  ls
+  383  cat and-then.txt
+  384  cat no-and-then.txt
+  385  man history
+  386  history
+  387  history > command-history.txt
