@@ -20,11 +20,15 @@ fs.readFile('data.json', 'utf8', (err, data) => {
 
   }
 
-  if (process.argv[2] === 'update') {
+  var num = process.argv[3];
 
-    var num = process.argv[3];
+  if (process.argv[2] === 'update' && obj.notes[num] !== undefined) {
+
     obj.notes[num] = process.argv[4];
 
+  } else {
+
+    console.log("No notes found.");
   }
 
   if (process.argv[2] === 'delete') {
