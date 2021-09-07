@@ -35,8 +35,7 @@ app.post('/api/grades', (req, res, next) => {
   const newName = req.body.name;
   const newCourse = req.body.course;
   const newScore = req.body.score;
-
-  const scoreNum = parseInt(newScore, 10);
+  const scoreNum = Number(newScore);
 
   if (newName === undefined && newCourse !== undefined && newScore !== undefined) {
     return res.status(400).json({ error: '"name" is a required field.' });
@@ -84,7 +83,7 @@ app.put('/api/grades/:gradeId', (req, res, next) => {
   const updateName = req.body.name;
   const updateCourse = req.body.course;
   const updateScore = req.body.score;
-  const scoreNum = parseInt(updateScore, 10);
+  const scoreNum = Number(updateScore);
 
   if (!Number.isInteger(gradeId) || gradeId <= 0) {
     return res.status(400).json({ error: '"gradeId" must be a positive integer.' });
